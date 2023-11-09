@@ -13,10 +13,10 @@ h1 {
 }
 
 form {
-    max-width: 400px;
+    max-width: 600px;
     margin: 20px auto;
     background-color: #d4d1d1;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgb(240, 233, 233);
 }
@@ -28,7 +28,7 @@ label {
 }
 
 textarea {
-    width: 100%;
+    width: 95%;
     height: 120px;
     padding: 8px;
     font-size: 16px;
@@ -47,11 +47,11 @@ textarea {
 }
 
 button {
-    display: block;
+    display: flex;
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #9ba3eb;
+    background-color: #848ee5;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -63,7 +63,7 @@ h2 {
 }
 
 pre {
-    background-color: #000;
+    background-color: #292929;
     color: #fff;
     padding: 60px;
     white-space: pre-wrap;
