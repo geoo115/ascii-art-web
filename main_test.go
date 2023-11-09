@@ -14,7 +14,7 @@ func TestHandleMainPage(t *testing.T) {
 	}
 
 	rr := httptest.NewRecorder()
-	handler := http.HandlerFunc(handleMainPage)
+	handler := http.HandlerFunc(handleDefault)
 	handler.ServeHTTP(rr, req)
 
 	if status := rr.Code; status != http.StatusOK {
